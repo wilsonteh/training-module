@@ -1,0 +1,10 @@
+.sender-column {
+    float: right;
+    text-align: right;
+}
+
+.right-float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
