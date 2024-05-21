@@ -1,0 +1,85 @@
+/* Your styles here */
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pg-title {
+  text-align: center;
+}
+
+#banner-img {
+  width: 100%;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  border-radius: 50px;
+}
+
+#sort-dropdown-label {
+  align-self: flex-end;
+}
+
+#image-grid {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+
+.card {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.card .img-wrapper {
+  width: 100%;
+}
+
+.card .img-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .info .sm-text {
+  color: hsl(0, 0%, 30%);
+  font-size: 12px;
+}
+
+.card .info .title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.card .info .description {
+  font-size: 14px;
+  line-height: normal;
+  text-align: justify;
+}
